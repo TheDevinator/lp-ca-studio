@@ -65,14 +65,13 @@ ul{
     margin-top: 20px;
 }
 /* .common_button a {
-    background: linear-gradient(to right, #ef2b57, #db132c);
+    background: #EF2B57;
     color: #fff;
     padding: 8px 40px;
     border-radius: 5px;
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
-
 } */
 .common_button a {
     background: linear-gradient(to right, #ef2b57, #db132c);
@@ -81,7 +80,7 @@ ul{
     align-items: center;
     color: white;
     text-decoration: none;
-    padding: 8px 40px;
+    padding: 8px 40px
 }
 /* ****************** banner end ******************* */
 /* ****************** why start ******************* */
@@ -149,7 +148,7 @@ ul{
 /* ****************** steps end ******************* */
 /* ****************** brand start ******************* */
 .brand{
-    padding: 60px 0;
+    padding: 20px 0;
     background: #EFEFEF;
 }
 .brand .brand_top {
@@ -237,6 +236,12 @@ footer  .footer_item_3 p{
 .slider_body .slider_left{
     padding-left: 40px;
 }
+@media (max-width: 1125px){
+    .slider_body .slider_left{
+        padding-left: 0px;
+    }
+}
+
 .slider_body .slider_left h4{
     font-size: 32px;
     font-weight: 600;
@@ -303,5 +308,10 @@ footer  .footer_item_3 p{
   color: #000;
 /*  mix-blend-mode: difference;*/
   pointer-events: none;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 100px;
 }
 /* ****************** slider_body end ******************* */
